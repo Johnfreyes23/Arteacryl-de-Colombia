@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Arteacryl de Colombia - el acril&iacuteco hecho arte </title>
+        <meta name=�description� content=�ArteAcryl es una empresa con mas de 12 a�os de experiencia
+         en la elaboraci�n de avisos publicitarios en acr�lico con la mejor calidad y detalles. �>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/icono.png" type="img/png">
+		<script src="js/cotice.js">	</script>
+
+</head>
+<body>
+	<header>
+		<div class="example3">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" ><img src="img/LogoArteacrylBlanco.png" alt="Logo Arteacryl">
+						</a>
+					</div>
+					<div id="navbar3" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li ><a href="index.html">Inicio</a></li>
+							<li><a href="producto.html">Productos</a></li>
+							<li><a href="compania.html">Nosotros</a></li>
+							<li class="active"><a href="contacto.html">Contactenos</a></li>
+						</ul>
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+				<!--/.container-fluid -->
+			</nav>
+		</div>
+	</header>
+	<br><br><br>
+	<div class="container">
+    <div class="row">
+			<div class="col-md-offset-1 col-lg-offset-1 col-sm-12 col-md-10 col-lg-10 thumbnail">
+			<center><h1>Welcome to Arteacryl</h1><br><br>
+			<p>Aqui calculas un aproximado de acrilico con cantonera e iluminacion</p><br><br></center>
+      <center>
+			<form  name="calculo" id="calculo"class="formulario">
+        <fieldset class="scheduler-border">
+        <legend class="scheduler-border">Caracteristicas</legend>
+        <div class="form-group row">
+          <label for="color" class="col-xs-2 col-form-label">Color:</label>
+          <div class="col-xs-10">
+            <select name="color" class="form-control" id="color">
+						<option value ="3">Otros
+  					<option value ="1">Cristal
+  					<option value ="2">Blanco opal
+  					<option value ="3">Otros
+  					</select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="tipo" class="col-xs-2 col-form-label">Calibre:</label>
+          <div class="col-xs-10">
+            <select name="tipo" class="form-control" id="tipo">
+						<option value ="3">3 mm
+    				<option value ="1">2 mm
+    				<option value ="2">2.4mm
+
+    				<option value ="4">4 mm
+    				<option value ="5">5 mm
+    				<option value ="6">8 mm
+    				<option value ="7">10 mm
+    				</select>
+          </div>
+        </div>
+				<div class="form-group row">
+					<label for="canto" class="col-xs-2 col-form-label">Leds:  </label>
+					<div class="col-xs-3 " id="check">
+						<input id="si" type="radio" name="si" value="1" style="margin-right:8px;"> SI
+					  <input id="no" type="radio" name="si" value="0" style="margin-right:8px; margin-left:8px;" > No
+					</div>
+					<label for="leds" class="col-xs-5 col-form-label">
+						<input type="numeric" id="leds" style="visibility: collapse;" name="sam1"  placeholder="Ingrese numero de leds" >
+					</label>
+				</div>
+      </fieldset>
+        <fieldset class="scheduler-border">
+          <legend class="scheduler-border">Dimensiones</legend>
+        <div class="form-group row">
+          <label for="alto" class="col-xs-2 col-form-label">Alto (cm):  </label>
+          <div class="col-xs-10">
+            <input  type="numeric" class="form-control" name="alto" id="alto" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="ancho" class="col-xs-2 col-form-label">Ancho (cm): </label>
+          <div class="col-xs-10">
+            <input  type="numeric" class="form-control" name="ancho" id="ancho" />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="canto" class="col-xs-2 col-form-label">Cantonera (cm):  </label>
+          <div class="col-xs-10">
+            <input  type="numeric" class="form-control" name="canto" id="canto" />
+          </div>
+        </div>
+      </fieldset>
+			<fieldset class="scheduler-border">
+				<legend class="scheduler-border">Otros Agregados</legend>
+				<div class="form-group row">
+				<label for="obra" class="col-xs-2 col-form-label">Manofactura: </label>
+				<div class="col-xs-10">
+					<input  type="numeric" class="form-control" name="obra" id="obra" value="0" />
+				</div>
+			</div>
+				<div class="form-group row">
+				<label for="otros" class="col-xs-2 col-form-label">Otros: </label>
+				<div class="col-xs-10">
+					<input  type="numeric" class="form-control" name="otros" id="otros" value="0"/>
+				</div>
+			</div>
+			</fieldset>
+        <div class="form-group row ">
+
+          <label for="resultado" class="col-xs-2 col-form-label">Valor:   </label>
+          <div class="col-xs-10 input-group" >
+						<div class="input-group-addon">$</div>
+            <input type="numeric" name="resultado" class="form-control" id="resultado"  />
+          </div>
+        </div>
+
+
+
+				<div class="form-group row">
+				<input type="button" class="guardar btn btn-primary" value="CALCULAR" onclick="costoAcrilico()">
+				<input type="reset" value="BORRAR" class="btn btn-primary" /></p>
+				<center><a href = "modulo.html" class = "btn btn-primary" role = "button">regresar</a></center>
+      </div>
+
+			</form></center>
+			</div>
+  </div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 "><center><img class="img-responsive img-thumbnail pielogo"src="img/arte.jpg"></img></center></div>
+				<div class="col-lg-4 col-md-4 col-sm-12 "><center><h4>CONTACTENOS</h4>
+        <p>Carrera 19 # 41-19<br>3187024630<br>arteacryl@hotmail.com</p>
+      </center></div>
+				<div class="col-lg-2 col-md-2 col-sm-12 ">
+					<center>
+    <a href="https://www.facebook.com/ArteAcryl-de-Colombia-484571904978404/"><img class="img-rounded img-responsive" src="img/b1.png"></a>
+	  <a href="https://www.youtube.com/channel/UC_-ahykH2PDI7gxMjPfsZHw"><img class="img-rounded img-responsive" src="img/b2.png"></a>
+	</center>
+			</div>
+		</div>
+			</div>
+
+	</footer>
+</body>
+</html>

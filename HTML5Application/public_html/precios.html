@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Arteacryl de Colombia - el acril&iacuteco hecho arte </title>
+        <meta name=�description� content=�ArteAcryl es una empresa con mas de 12 a�os de experiencia
+         en la elaboraci�n de avisos publicitarios en acr�lico con la mejor calidad y detalles. �>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/icono.png" type="img/png">
+		<script>
+	function cotice2(){
+	alto=parseInt(poliestileno.alto2.value);
+	ancho=parseInt(poliestileno.ancho2.value);
+	tipo = parseInt(poliestileno.tipo2.value);
+	area= alto*ancho;
+		switch (tipo) {
+			case 1:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*1.001)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*1.500)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*3.001)
+			}
+
+				break;
+			case 2:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*1.8)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*2.8)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*4.8)
+			}
+
+				break;
+			case 3:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*2.6)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*3.6)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*5.6)
+			}
+				break;
+			case 4:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*3.8)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*4)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*7.5)
+			}
+			break;
+			case 5:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*4.8)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*5.4)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*8)
+			}
+			break;
+			case 6:
+			if(area > 10000 ){
+				poliestileno.resultado2.value= parseInt(area*5.8)+1000
+			}
+			if(area <= 10000 && area >=5000 ){
+				poliestileno.resultado2.value= parseInt(area*6.4)
+			}
+			if(area < 5000 ){
+				poliestileno.resultado2.value= parseInt(area*9)
+			}
+			break;
+
+
+
+		}
+	}
+
+	function cotice(){
+	alto=parseInt(calculo.alto.value);
+	ancho=parseInt(calculo.ancho.value);
+	area= alto*ancho;
+	calculo.arearesultado.value=area;
+	color= parseInt(calculo.color.value);
+	tipo = parseInt(calculo.tipo.value);
+	switch (color) {
+		case 1:
+		switch(tipo){
+		case 1:
+		if (area<100){
+			calculo.resultado.value= 4000;
+		}
+		else calculo.resultado.value= area*8.069 + 8222.9;
+		break;
+		case 2:
+		if (area<100){
+			calculo.resultado.value= 4000;
+		}
+		else calculo.resultado.value= area*10.156 + 6887.5;
+		break;
+		case 3:
+		if (area<100){
+			calculo.resultado.value= 4000;
+		}
+		else calculo.resultado.value= area*13.288 + 4884.4;
+		break;
+    case 4:
+    if (area<100){
+      calculo.resultado.value= 4000;
+    }
+    else calculo.resultado.value= (area*13.288 + 4884.4)+(area*13.288 + 4884.4)*0.417;
+    break;
+    case 5:
+    if (area<100){
+      calculo.resultado.value= 6000;
+    }
+    else calculo.resultado.value= (area*13.288 + 4884.4)+(area*13.288 + 4884.4)*0.56;
+    break;
+		case 6:
+		if (area<100){
+			calculo.resultado.value= 6000;
+		}
+		else calculo.resultado.value= (area*13.288 + 4884.4)*2.3;
+		break;
+		case 7:
+		if (area<100){
+			calculo.resultado.value= 6000;
+		}
+		else calculo.resultado.value= (area*13.288 + 4884.4)*2.7;
+		break;
+
+
+
+		}
+			break;
+		case 2:
+			switch(tipo){
+				case 1:
+				if (area<100){
+					calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*8.069 + 8222.9;
+
+				break;
+
+				case 2:
+				if (area<100){
+					calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*10.156 + 6887.5;
+				break;
+				case 3:
+				if (area<100){
+					calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*13.288 + 4884.4;
+				break;
+        case 4:
+        if (area<100){
+          calculo.resultado.value= 6000;
+        }
+        else calculo.resultado.value= (area*13.288 + 4884.4)+(area*13.288 + 4884.4)*0.417;
+        break;
+        case 5:
+        if (area<100){
+          calculo.resultado.value= 6000;
+        }
+        else calculo.resultado.value= (area*13.288 + 4884.4)+(area*13.288 + 4884.4)*0.56;
+        break;
+				case 6:
+				if (area<100){
+					calculo.resultado.value= 6000;
+				}
+				else calculo.resultado.value= (area*13.288 + 4884.4)*2.3;
+				break;
+				case 7:
+				if (area<100){
+					calculo.resultado.value= 6000;
+				}
+				else calculo.resultado.value= (area*13.288 + 4884.4)*2.7;
+				break;
+
+			}
+		break;
+
+		case 3:
+
+			switch(tipo){
+				case 1:
+				if (area<100){
+					calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*10.643 + 8000.9;
+
+				break;
+
+				case 2:
+				if (area<100){
+				calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*11.463 + 8841.5;
+
+				break;
+
+				case 3:
+				if (area<100){
+					calculo.resultado.value= 4000;
+				}
+				else calculo.resultado.value= area*14.288 + 7607.4;
+
+				break;
+        case 4:
+        if (area<100){
+          calculo.resultado.value= 6000;
+        }
+        else calculo.resultado.value= (area*14.288 + 7607.4)+(area*14.288 + 7607.4)*0.417;
+
+        break;
+        case 5:
+        if (area<100){
+          calculo.resultado.value= 6000;
+        }
+        else calculo.resultado.value= (area*14.288 + 7607.4)+(area*14.288 + 7607.4)*0.56;
+        break;
+				case 6:
+				if (area<100){
+					calculo.resultado.value= 6000;
+				}
+				else calculo.resultado.value= (area*14.288 + 7607.4)*2.3;
+				break;
+				case 7:
+				if (area<100){
+					calculo.resultado.value= 6000;
+				}
+				else calculo.resultado.value= (area*14.288 + 7607.4)*2.7;
+				break;
+
+
+		}
+		break;
+		case 4:
+
+		break;
+	}
+
+	}
+	</script>
+
+</head>
+<body>
+	<header>
+		<div class="example3">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" ><img src="img/LogoArteacrylBlanco.png" alt="Logo Arteacryl">
+						</a>
+					</div>
+					<div id="navbar3" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li ><a href="index.html">Inicio</a></li>
+							<li><a href="producto.html">Productos</a></li>
+							<li><a href="compania.html">Nosotros</a></li>
+							<li class="active"><a href="contacto.html">Contactenos</a></li>
+						</ul>
+					</div>
+					<!--/.nav-collapse -->
+				</div>
+				<!--/.container-fluid -->
+			</nav>
+		</div>
+	</header>
+	<br><br><br>
+	<div class="container">
+    <div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-6 thumbnail">
+			<center><h1>Valor de Acrilico</h1><br><br>
+			<p>Un aproximado del valor de su acrlilico</p><br><br></center>
+<center>
+			<form  name="calculo">
+
+				        <fieldset class="form-group ">
+					<p><b><label for="color">Color:</label></b>
+					&nbsp &nbsp<select name="color" class="form-control" id="color">
+					<option value="">- Seleccione una opcion -</option>
+					<option value ="1">Cristal
+					<option value ="2">Blanco opal
+					<option value ="3">Otros
+					</select>
+					</fieldset>
+
+				<fieldset class="form-group ">
+				<p><b><label for="tipo">Calibre:</label></b>
+				&nbsp &nbsp<select name="tipo" class="form-control" id="tipo">
+				<option value="">- Seleccione una opcion -</option>
+				<option value ="1">2 mm
+				<option value ="2">2.4mm
+				<option value ="3">3 mm
+				<option value ="4">4 mm
+				<option value ="5">5 mm
+				<option value ="6">8 mm
+				<option value ="7">10 mm
+				</select></p>
+				</fieldset>
+
+				<fieldset class="form-group ">
+				<p><b><label for="alto">Alto (cm):  </label> </b>
+				&nbsp &nbsp<input  type="numeric" class="form-control" name="alto" id="alto" /></p>
+				</fieldset>
+
+				<fieldset class="form-group ">
+				<p><b><label for="anchp">Ancho(cm):  </label> </b>
+				&nbsp &nbsp<input  type="numeric" class="form-control" name="ancho" id="ancho" /></p>
+				</tr>
+
+				<fieldset class="form-group ">
+				<p><b><label for="resultado">Valor:   </label></b>
+				$<input type="numeric" name="resultado" class="form-control" id="resultado" /></p>
+				</fieldset>
+
+                                <fieldset class="form-group ">
+				<p><b><label for="resultado">Area a vender:   </label></b>
+				$<input type="numeric" name="arearesultado" class="form-control" id="arearesultado" /></p>
+				</fieldset>
+
+
+
+				<fieldset class="form-group ">
+				<input type="button" class="btn btn-primary" value="CALCULAR" onclick="cotice()">
+				<input type="reset" value="BORRAR" class="btn btn-primary" /></p>
+				<center><a href = "modulo.html" class = "btn btn-primary" role = "button">regresar</a></center>
+                                </fieldset>
+
+			</form></center>
+			</div>
+	<div class=" col-sm-12 col-md-6 col-lg-6 thumbnail">
+			<center><h1>Valor Poliestileno</h1><br><br>
+			<p>Un aproximado del valor de su Poliestileno</p><br><br></center>
+			<center>
+			<form  name="poliestileno">
+
+				<fieldset class="form-group ">
+				<p><b><label for="tipo2">Calibre:</label></b>
+				&nbsp &nbsp<select name="tipo2" class="form-control" id="tipo2">
+				<option value="">- Seleccione una opcion -</option>
+				<option value ="1">0.5 mm (calibre 20)
+				<option value ="2">1 mm (calibre 40)
+				<option value ="3">1.5 mm (calibre 60)
+				<option value ="4">2 mm (calibre 80)
+				<option value ="5">2.5 mm (calibre 100)
+				<option value ="6">3 mm (calibre 120)
+				</select></p>
+				</fieldset>
+
+				<fieldset class="form-group ">
+				<p><b><label for="alto2">Alto (cm):  </label> </b>
+				&nbsp &nbsp<input  type="numeric" class="form-control" name="alto2" id="alto2" /></p>
+				</fieldset>
+
+				<fieldset class="form-group ">
+				<p><b><label for="ancho2">Ancho(cm):  </label> </b>
+				&nbsp &nbsp<input  type="numeric" class="form-control" name="ancho2" id="ancho2" /></p>
+				</tr>
+
+
+
+
+				<fieldset class="form-group ">
+				<p><b><label for="resultado2">Valor:   </label></b>
+				$<input type="numeric" name="resultado2" class="form-control" id="resultado2" /></p>
+				</fieldset>
+
+
+				<fieldset class="form-group ">
+				<input type="button" class="btn btn-primary" value="CALCULAR" onclick="cotice2()">
+				<input type="reset" value="BORRAR" class="btn btn-primary" /></p>
+				<center><a href = "modulo.html" class = "btn btn-primary" role = "button">regresar</a></center>
+                                </fieldset>
+
+			</form></center>
+			</div>
+  </div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 "><center><img class="img-responsive img-thumbnail pielogo"src="img/arte.jpg"></img></center></div>
+				<div class="col-lg-4 col-md-4 col-sm-12 "><center><h4>CONTACTENOS</h4>
+        <p>Carrera 19 # 41-19<br>3187024630<br>arteacryl@hotmail.com</p>
+      </center></div>
+				<div class="col-lg-2 col-md-2 col-sm-12 ">
+					<center>
+    <a href="https://www.facebook.com/ArteAcryl-de-Colombia-484571904978404/"><img class="img-rounded img-responsive" src="img/b1.png"></a>
+	  <a href="https://www.youtube.com/channel/UC_-ahykH2PDI7gxMjPfsZHw"><img class="img-rounded img-responsive" src="img/b2.png"></a>
+	</center>
+			</div>
+		</div>
+			</div>
+
+	</footer>
+</body>
+</html>
