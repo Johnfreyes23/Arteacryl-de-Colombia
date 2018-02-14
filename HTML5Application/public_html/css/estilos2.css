@@ -25,39 +25,7 @@ body{
   padding-bottom: 5%;
 }
 
-.example3 .navbar-brand {
-  height: 110px;
-}
-.navbar-right li a{
-  height: 110px;
-}
 
-.example3 .nav >li >a {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.example3 .navbar-toggle {
-  padding: 10px;
-  margin: 25px 15px 25px 0;
-}
-.navbar-brand img{
-  margin-left: 80px;
-  height: 90px;
-  width: auto ;
-}
-.example3 .navbar-inverse{
-  margin-bottom: 0px;
-
-  	background-image: url("../img/bg.png");
-  background-color: #B90B0B;
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
-  color: red !important;
-  background-color: #fff !important;
-}
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff !important;
-}
 p{
   margin: 0 0 0 0 !important;
   font-size: 18px !important;
