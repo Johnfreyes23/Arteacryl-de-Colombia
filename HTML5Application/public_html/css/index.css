@@ -65,9 +65,9 @@ hr {
     padding-top: 150px !important;
     align-items:center;
     display:flex;
-    background-image:url("../img/big2.jpg");
+    background-image:url("../img/nelson.jpeg");
     background-size:cover;
-    background-position: top; /* position at the top */
+    background-position: center; /* position at the top */
     background-repeat: no-repeat;
     background-color:#898888;
     min-height: 20em; /* height in relative units */ 
